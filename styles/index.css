@@ -1,3 +1,29 @@
-body{
+/*NewsCondensed_Bold.otf*/
+/*PerfoC-Bold.otf*/
+@font-face {
+	font-family: "ewsCondensed_Bold";
+	src: url('../fonts/ewsCondensed_Bold.otf');
+}
+
+* {
+	font-family: "ewsCondensed_Bold", Arial, sans-serif; 
+
+}
+
+div {
+	height: 100%;
 	background-image: url("../images/fon_1.jpg");
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background size: cover;
+}
+
+ul {
+	margin: 0; /* Обнуляем значение отступов */
+    padding: 16px; /* Значение полей */
+}
+ 
+li {
+	list-style-type: none;
+	display: inline-block; /* расположить пункты горизонтально */
 }
