@@ -1,5 +1,5 @@
-/*NewsCondensed_Bold.otf*/
-/*PerfoC-Bold.otf*/
+/*NewsCondensed_Bold.otf TODO DELETE THIS*/
+/*PerfoC-Bold.otf TODO DELETE THIS*/
 @font-face {
 	font-family: "ewsCondensed_Bold";
 	src: url('../fonts/ewsCondensed_Bold.otf');
@@ -8,6 +8,43 @@
 * {
 	font-family: "ewsCondensed_Bold", Arial, sans-serif; 
 
+}
+
+a {
+	text-decoration: none;
+}
+/*Не посещенная*/
+a:link {
+
+}
+/*Посещенная*/
+a:visited {
+
+}
+/*Не нажатая*/
+a:hover {
+
+}
+/*Нажатая*/
+a:active {
+
+}
+
+a.headline:link {
+	color: #000000FF;
+}
+a.headline:visited {
+	color: #FFFFFFFF;
+}
+a.headline:hover {
+	color: #ff5037;
+}
+a:active {
+
+}
+
+h1 {
+	color: red;
 }
 
 div {
