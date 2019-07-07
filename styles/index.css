@@ -8,7 +8,7 @@
 * {
 	font-family: "ewsCondensed_Bold", Arial, sans-serif;
 	font-size: 16px;
-
+	text-align: center;
 
 }
 
@@ -55,7 +55,8 @@ a.big_simple_button:link {
     box-shadow: 0 0 0 0 white inset, 0 0 1px 2px black;
     color: black;
     width: 170px;
-    height: 16px;
+    height: 20px;
+    line-height: 20px;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
