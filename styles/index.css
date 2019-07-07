@@ -5,6 +5,14 @@
 	src: url('../fonts/ewsCondensed_Bold.otf');
 }
 
+:root {
+	--main-black-color: black;
+	--main-white-color: white;
+	--main-orange-color: #ff5037;
+	--main-link-visited-color: #181818FF;
+	--main-link-hover-color: #221100FF;
+}
+
 * {
 	font-family: "ewsCondensed_Bold", Arial, sans-serif;
 	font-size: 16px;
@@ -33,17 +41,19 @@ a:active {
 }
 
 a.headline:link {
-	color: black;
+	font-size: 40px;
+	color: var(--main-black-color);
 }
 a.headline:visited {
-	color: #181818FF;
+	color: var(--main-link-visited-color);
 }
 a.headline:hover {
-	color: #ff5037;
+	color: var(--main-link-hover-color);
 }
 a.headline:active {
 
 }
+
 
 a.big_simple_button:link {
     text-decoration: none;
@@ -52,8 +62,8 @@ a.big_simple_button:link {
     padding: 15px 30px;
     margin: 10px 20px;
     border-radius: 2px;
-    box-shadow: 0 0 0 0 white inset, 0 0 1px 2px black;
-    color: black;
+    box-shadow: 0 0 0 0 var(--main-white-color) inset, 0 0 1px 2px var(--main-black-color);
+    color: var(--main-black-color);
     width: 170px;
     height: 20px;
     line-height: 20px;
@@ -63,10 +73,11 @@ a.big_simple_button:link {
     transition: .15s ease-in-out;
 }
 a.big_simple_button:visited {
-	color: #181818FF;
+	color: var(--main-link-visited-color);
 }
 a.big_simple_button:hover{
-  box-shadow: 0 0 50px 30px #ff5037 inset, 0 0 5px 4px #ff5037;
+  box-shadow: 0 0 50px 30px var(--main-orange-color) inset, 
+  			  0 0 5px 4px var(--main-orange-color);
   color: white;
 }
 a.big_simple_button:active {}
@@ -92,5 +103,5 @@ li {
 }
 
 h1 {
-	color: red;
+	color: var(--main-orange-color);
 }
