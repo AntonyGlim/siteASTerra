@@ -22,27 +22,10 @@
 	font-family: "ewsCondensed_Bold", Arial, sans-serif;
 	font-size: var(--main-font-size:);
 	text-align: center;
-
 }
 
 a {
 	text-decoration: none;
-}
-/*Не посещенная*/
-a:link {
-
-}
-Посещенная
-a:visited {
-
-}
-/*Не нажатая*/
-a:hover {
-
-}
-/*Нажатая*/
-a:active {
-
 }
 
 a.headline:link {
@@ -58,7 +41,6 @@ a.headline:hover {
 	transition: .20s ease-in-out;
 }
 a.headline:active {}
-
 
 a.big_simple_button:link {
     text-decoration: none;
@@ -97,16 +79,22 @@ div {
 	background size: cover;
 }
 
-ul {
-	margin: 0; /* Обнуляем значение отступов */
-    padding: 16px; /* Значение полей */
-}
- 
-li {
+.menu {
 	list-style-type: none;
-	display: inline-block; /* расположить пункты горизонтально */
+	text-transform: uppercase;
 }
-
-h1 {
+.menu li {
+	float: left;
+	margin-right: 2px;
+}
+.menu li a { 
+	display: block;
+	padding: 15px 20px;
+	color: var(--main-black-color);
+	font-weight: bold;
+}
+.menu li a:hover { 
 	color: var(--main-orange-color);
+	text-shadow: 0 0 1px var(--main-orange-color);
+	transition: .20s ease-in-out;
 }
