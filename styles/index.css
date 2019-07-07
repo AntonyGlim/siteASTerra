@@ -6,7 +6,9 @@
 }
 
 * {
-	font-family: "ewsCondensed_Bold", Arial, sans-serif; 
+	font-family: "ewsCondensed_Bold", Arial, sans-serif;
+	font-size: 16px;
+
 
 }
 
@@ -34,7 +36,7 @@ a.headline:link {
 	color: black;
 }
 a.headline:visited {
-	color: #242424FF;
+	color: #181818FF;
 }
 a.headline:hover {
 	color: #ff5037;
@@ -44,19 +46,24 @@ a.headline:active {
 }
 
 a.big_simple_button:link {
-  text-decoration: none;
-  outline: none;
-  display: inline-block;
-  padding: 15px 30px;
-  margin: 10px 20px;
-  border-radius: 2px;
-  box-shadow: 0 0 0 0 white inset, 0 0 1px 2px black;
-  color: black;
-  font-weight: bold;
-  text-transform: uppercase;
-  transition: .15s ease-in-out;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 0 white inset, 0 0 1px 2px black;
+    color: black;
+    width: 170px;
+    height: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .15s ease-in-out;
 }
-a.big_simple_button:visited {}
+a.big_simple_button:visited {
+	color: #181818FF;
+}
 a.big_simple_button:hover{
   box-shadow: 0 0 50px 30px #ff5037 inset, 0 0 5px 4px #ff5037;
   color: white;
