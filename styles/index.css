@@ -124,10 +124,11 @@ a#old_site_button:link{
     margin: 10px 20px;
     border-radius: 2px;
     box-shadow: 0 0 0 0 var(--main-white-color) inset, 
-    			0 0 1px 3px var(--main-orange-color);
+    			0 0 1px 3px var(--main-white-color);
     color: var(--main-white-color);
+    font-size: 10px;
     width: 170px;
-    height: var(--main-font-size);
+    height: var(--main-font-size * 2);
     line-height: var(--main-font-size);
     text-align: center;
     font-weight: bold;
