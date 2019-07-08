@@ -144,21 +144,21 @@ a#old_site_button:hover{
 }
 
 /*https://www.internet-technologies.ru/articles/sozdanie-menyu-na-css-rukovodstvo-dlya-novichkov.html*/
-div .header_menu {
+.header_menu {
 	list-style-type: none;
 	text-transform: uppercase;
 }
-div .header_menu li {
+.header_menu li {
 	float: left;
 	margin-right: 2px;
 }
-div .header_menu li a { 
+.header_menu li a { 
 	display: block;
 	padding: 15px 20px;
 	color: var(--main-white-color);
 	font-weight: bold;
 }
-div .header_menu li a:hover { 
+.header_menu li a:hover { 
 	color: var(--main-white-color);
 	text-shadow: 0 0 5px var(--main-white-color);
 	transition: .20s ease-in-out;
