@@ -63,7 +63,7 @@ a.big_simple_button:link {
     transition: .15s ease-in-out;
 }
 a.big_simple_button:visited {
-	color: var(--main-white-color);
+	color: var(--main-link-visited-color);
 }
 a.big_simple_button:hover{
   box-shadow: 0 0 50px 30px var(--main-orange-color) inset, 
@@ -135,7 +135,7 @@ a#old_site_button:link{
     transition: .15s ease-in-out;
 }
 a#old_site_button:visited {
-	color: var(--main-link-visited-color);
+	color: var(--main-white-color);
 }
 a#old_site_button:hover{
   box-shadow: 0 0 50px 30px var(--main-orange-color) inset, 
