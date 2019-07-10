@@ -108,3 +108,9 @@ a.small_simple_button:hover{
     width: 100%;
 }
 /*</.header_menu .footer_menu>*/
+table{
+	border-collapse: collapse;
+}
+td {
+	border: 1px solid var(--main-black-color);
+}
