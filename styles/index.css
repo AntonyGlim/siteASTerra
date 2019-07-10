@@ -150,18 +150,35 @@ a#old_site_button:hover{
 }
 .header_menu li {
 	float: left;
-	margin-right: 2px;
+	margin-right: 20px;
 }
+/*https://inter-net.pro/css/effekt-podchjorkivaniya*/
 .header_menu li a { 
-	display: block;
-	padding: 15px 20px;
-	color: var(--main-white-color);
-	font-weight: bold;
+    display: inline-block;
+    color: var(--main-orange-color);
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
 }
-.header_menu li a:hover { 
-	color: var(--main-white-color);
-	text-shadow: 0 0 5px var(--main-white-color);
-	transition: .20s ease-in-out;
+.header_menu li a:after { 
+    display: block;
+    content: "";
+    background-color: var(--main-orange-color);
+    height: 3px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.header_menu li a:hover:after,
+.header_menu li a:focus:after {
+    width: 100%;
 }
 
 .footer_menu {
