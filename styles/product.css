@@ -1,12 +1,65 @@
-h1{
-	background: #DDADAD;
+@font-face {
+	font-family: "ewsCondensed_Bold";
+	src: url('../fonts/ewsCondensed_Bold.otf');
+}
+:root {
+	/*colors*/
+	--main-black-color: black;
+	--main-white-color: white;
+	--main-orange-color: #ff6921;
+	--main-link-visited-color: #181818FF;
+	--main-link-hover-color: #221100FF;
+
+	/*font*/
+	--main-font-size: 20px;
+	--headline-font-size: 40px;
+}
+* {
+	font-family: "ewsCondensed_Bold", Arial, sans-serif;
+	font-size: var(--main-font-size:);
+	text-align: center;
 }
 
-.block_1{
-	background-image: url(images/fon_1.jpg);
-	  background-size: 1500px;
-	  width: 3000px;
-	  height: 300px;
-	  border: 2px solid;
-	  color: pink;
+a {
+	text-decoration: none;
+	color: var(--main-black-color);
+}
+a:visited {
+	color: var(--main-link-visited-color);
+}
+a:hover { 	
+	color: var(--main-link-hover-color);
+	text-shadow: 0 0 1px var(--main-link-hover-color);
+	transition: .20s ease-in-out; 
+}
+
+a.headline:link {
+	font-size: var(--headline-font-size);
+}
+
+a.small_simple_button:link {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 10px 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 0 var(--main-white-color) inset, 
+    			0 0 1px 2px var(--main-black-color);
+    color: var(--main-black-color);
+    width: 170px;
+    height: var(--main-font-size);
+    line-height: var(--main-font-size);
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .15s ease-in-out;
+}
+a.small_simple_button:visited {
+	color: var(--main-link-visited-color);
+}
+a.small_simple_button:hover{
+  box-shadow: 0 0 50px 30px var(--main-orange-color) inset, 
+  			  0 0 5px 4px var(--main-orange-color);
+  color: white;
 }
