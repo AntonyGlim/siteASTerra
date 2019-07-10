@@ -1,10 +1,7 @@
-/*NewsCondensed_Bold.otf TODO DELETE THIS*/
-/*PerfoC-Bold.otf TODO DELETE THIS*/
 @font-face {
 	font-family: "ewsCondensed_Bold";
 	src: url('../fonts/ewsCondensed_Bold.otf');
 }
-
 :root {
 	/*colors*/
 	--main-black-color: black;
@@ -17,7 +14,6 @@
 	--main-font-size: 20px;
 	--headline-font-size: 40px;
 }
-
 * {
 	font-family: "ewsCondensed_Bold", Arial, sans-serif;
 	font-size: var(--main-font-size:);
@@ -28,9 +24,7 @@ a {
 	text-decoration: none;
 	color: var(--main-black-color);
 }
-a:visited {
-	color: var(--main-link-visited-color);
-}
+a:visited { color: var(--main-link-visited-color);}
 a:hover { 	
 	color: var(--main-link-hover-color);
 	text-shadow: 0 0 1px var(--main-link-hover-color);
@@ -49,7 +43,7 @@ a.big_simple_button:link {
     margin: 10px 20px;
     border-radius: 2px;
     box-shadow: 0 0 0 0 var(--main-white-color) inset, 
-    			0 0 1px 2px var(--main-black-color);
+                0 0 1px 2px var(--main-black-color);
     color: var(--main-black-color);
     width: 170px;
     height: var(--main-font-size);
@@ -60,83 +54,11 @@ a.big_simple_button:link {
     transition: .15s ease-in-out;
 }
 a.big_simple_button:visited {
-	color: var(--main-link-visited-color);
+    color: var(--main-link-visited-color);
 }
 a.big_simple_button:hover{
   box-shadow: 0 0 50px 30px var(--main-orange-color) inset, 
-  			  0 0 5px 4px var(--main-orange-color);
-  color: white;
-}
-
-
-#main_block {
-	height: 100%;
-	background-image: url("../images/fon_1.jpg");
-	background-repeat: no-repeat;
-	background-position: center 0px;
-	background size: cover;
-	color: var(--main-white-color);
-}
-#main_block a {
-	color: var(--main-white-color);
-	font-weight: bold;
-}
-#main_block a:hover { 
-	color: var(--main-white-color);
-	text-shadow: 0 0 2px var(--main-white-color);
-	transition: .20s ease-in-out;
-}
-
-a#email_button:link{
-	text-decoration: none;
-    outline: none;
-    display: inline-block;
-    padding: 15px 30px;
-    margin: 10px 20px;
-    border-radius: 2px;
-    box-shadow: 0 0 0 0 var(--main-white-color) inset, 
-    			0 0 1px 3px var(--main-orange-color);
-    color: var(--main-white-color);
-    width: 170px;
-    height: var(--main-font-size);
-    line-height: var(--main-font-size);
-    text-align: center;
-    font-weight: bold;
-    transition: .15s ease-in-out;
-}
-a#email_button:visited {
-	color: var(--main-link-visited-color);
-}
-a#email_button:hover{
-  box-shadow: 0 0 50px 30px var(--main-orange-color) inset, 
-  			  0 0 5px 4px var(--main-orange-color);
-  color: white;
-}
-
-a#old_site_button:link{
-	text-decoration: none;
-    outline: none;
-    display: inline-block;
-    padding: 15px 30px;
-    margin: 10px 20px;
-    border-radius: 2px;
-    box-shadow: 0 0 0 0 var(--main-white-color) inset, 
-    			0 0 1px 3px var(--main-white-color);
-    color: var(--main-white-color);
-    font-size: 10px;
-    width: 170px;
-    height: var(--main-font-size * 2);
-    line-height: var(--main-font-size);
-    text-align: center;
-    font-weight: bold;
-    transition: .15s ease-in-out;
-}
-a#old_site_button:visited {
-	color: var(--main-white-color);
-}
-a#old_site_button:hover{
-  box-shadow: 0 0 50px 30px var(--main-orange-color) inset, 
-  			  0 0 5px 4px var(--main-orange-color);
+              0 0 5px 4px var(--main-orange-color);
   color: white;
 }
 
@@ -156,7 +78,7 @@ a#old_site_button:hover{
 .header_menu li a,
 .footer_menu li a { 
     display: inline-block;
-    color: var(--main-orange-color);
+    color: var(--main-black-color);
     font-weight: bold;
     line-height: 1;
     text-decoration: none;
@@ -184,8 +106,5 @@ a#old_site_button:hover{
 .footer_menu li a:hover:after,
 .footer_menu li a:focus:after {
     width: 100%;
-}
-.footer_menu li a { 
-	color: var(--main-black-color);
 }
 /*</.header_menu .footer_menu>*/
