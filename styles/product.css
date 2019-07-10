@@ -24,9 +24,7 @@ a {
 	text-decoration: none;
 	color: var(--main-black-color);
 }
-a:visited {
-	color: var(--main-link-visited-color);
-}
+a:visited { color: var(--main-link-visited-color);}
 a:hover { 	
 	color: var(--main-link-hover-color);
 	text-shadow: 0 0 1px var(--main-link-hover-color);
@@ -63,3 +61,50 @@ a.small_simple_button:hover{
   			  0 0 5px 4px var(--main-orange-color);
   color: white;
 }
+
+/*<.header_menu .footer_menu>*/
+/*https://www.internet-technologies.ru/articles/sozdanie-menyu-na-css-rukovodstvo-dlya-novichkov.html*/
+.header_menu,
+.footer_menu {
+	list-style-type: none;
+	text-transform: uppercase;
+}
+.header_menu li,
+.footer_menu li {
+	float: left;
+	margin-right: 20px;
+}
+/*https://inter-net.pro/css/effekt-podchjorkivaniya*/
+.header_menu li a,
+.footer_menu li a { 
+    display: inline-block;
+    color: var(--main-black-color);
+    font-weight: bold;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+.header_menu li a:after,
+.footer_menu li a:after { 
+    display: block;
+    content: "";
+    background-color: var(--main-orange-color);
+    height: 3px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.header_menu li a:hover:after,
+.header_menu li a:focus:after,
+.footer_menu li a:hover:after,
+.footer_menu li a:focus:after {
+    width: 100%;
+}
+/*</.header_menu .footer_menu>*/
