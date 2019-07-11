@@ -108,9 +108,19 @@ a.small_simple_button:hover{
     width: 100%;
 }
 /*</.header_menu .footer_menu>*/
+
 table{
 	border-collapse: collapse;
 }
 td {
 	border: 1px solid var(--main-black-color);
+}
+
+#main_img {
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+          transition:         transform .2s ease-in-out;
+}
+#main_img:hover {
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
 }
