@@ -189,3 +189,14 @@ a#old_site_button:hover{
 	color: var(--main-black-color);
 }
 /*</.header_menu .footer_menu>*/
+
+/*<img_rotation>*/
+img:not(#logo_img) {
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+          transition:         transform .2s ease-in-out;
+}
+img:not(#logo_img):hover {
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+}
+/*</img_rotation>*/

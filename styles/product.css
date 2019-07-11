@@ -116,6 +116,7 @@ td {
 	border: 1px solid var(--main-black-color);
 }
 
+/*<img_rotation>*/
 #main_img {
   -webkit-transition: -webkit-transform .2s ease-in-out;
           transition:         transform .2s ease-in-out;
@@ -124,3 +125,4 @@ td {
   -webkit-transform: rotate(1deg);
           transform: rotate(1deg);
 }
+/*</img_rotation>*/
