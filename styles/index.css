@@ -220,7 +220,7 @@ img:not(#logo_img):hover {
 
 /*how to position block by center*/
 #about_block_imgs {
-    width: 1200px;
+    /*width: 1200px;*/
     margin: 10px auto;
     background: #FADCDC;  /*TODO Delete this*/
 }
@@ -241,6 +241,18 @@ img:not(#logo_img):hover {
     margin-right: auto;
 }
 
-.headline {
-    margin: 15 auto 15;
+#product_block {
+    margin: 10px auto;
+    background: #B8FFFE;  /*TODO Delete this*/
+}
+#product_block:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.product_card {
+    float: left;
+    height: 214px;
+    width: 380px;
+    margin: 0.833% 0.833%;
 }
