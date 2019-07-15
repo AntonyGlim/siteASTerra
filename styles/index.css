@@ -203,22 +203,28 @@ img:not(#logo_img):hover {
 }
 /*</img_rotation>*/
 
-#about_block {
+#about_block_imgs {
     background: #FADCDC;  /*TODO Delete this*/
 }
-
-#about_block:after {
+#about_block_imgs:after {
     content: '';
     clear: both;
     display: block;
 }
-
 .about_block_img {
     float: left;
 }
-
 .about_block_img {
     height: 220px;
     width: 220px;
     margin: 10px 15px;
+}
+.block_of_text {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headline {
+    margin: 15 auto 15;
 }
