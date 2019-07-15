@@ -212,7 +212,10 @@ img:not(#logo_img):hover {
 }
 /*</img_rotation>*/
 
+/*how to position block by center*/
 #about_block_imgs {
+    width: 1200px;
+    margin: 10px auto;
     background: #FADCDC;  /*TODO Delete this*/
 }
 #about_block_imgs:after {
@@ -222,11 +225,9 @@ img:not(#logo_img):hover {
 }
 .about_block_img {
     float: left;
-}
-.about_block_img {
     height: 220px;
     width: 220px;
-    margin: 10px 15px;
+    margin: 0.833% 0.833%;
 }
 .block_of_text {
     width: 600px;
