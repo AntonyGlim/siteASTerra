@@ -205,6 +205,22 @@ a#old_site_button:hover{
 .footer_menu li a { 
 	color: var(--main-black-color);
 }
+.footer_menu{
+    margin: 10px auto 0px;
+    background: #FADCDC;
+}
+.footer_menu:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.footer_menu li {
+    float: left;
+    height: 16px;
+    width: 120px;
+    margin: 1% 5%;
+}
 /*</.header_menu .footer_menu>*/
 
 /*<img_rotation>*/
@@ -272,4 +288,8 @@ img:not(#logo_img):hover {
     height: 380px;
     width: 380px;
     margin: 0.833% 0.833%;
+}
+
+#footer_block p {
+    clear: both;
 }
