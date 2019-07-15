@@ -256,3 +256,20 @@ img:not(#logo_img):hover {
     width: 380px;
     margin: 0.833% 0.833%;
 }
+
+
+#portfolio_block {
+    margin: 10px auto;
+    background: #B78CFF;  /*TODO Delete this*/
+}
+#portfolio_block:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.portfolio_card {
+    float: left;
+    height: 380px;
+    width: 380px;
+    margin: 0.833% 0.833%;
+}
