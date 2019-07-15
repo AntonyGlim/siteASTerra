@@ -142,8 +142,17 @@ a#old_site_button:hover{
   color: white;
 }
 
+/*TODO DELETE THIS*/
+#header_block ul {
+    vertical-align: middle;
+}
 /*<.header_menu .footer_menu>*/
 /*https://www.internet-technologies.ru/articles/sozdanie-menyu-na-css-rukovodstvo-dlya-novichkov.html*/
+.header_menu {
+    float: right;
+    padding: 10;
+}
+
 .header_menu,
 .footer_menu {
 	list-style-type: none;
