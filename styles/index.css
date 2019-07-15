@@ -202,3 +202,23 @@ img:not(#logo_img):hover {
           transform: rotate(1deg);
 }
 /*</img_rotation>*/
+
+#about_block {
+    background: #FADCDC;  /*TODO Delete this*/
+}
+
+#about_block:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.about_block_img {
+    float: left;
+}
+
+.about_block_img {
+    height: 220px;
+    width: 220px;
+    margin: 10px 15px;
+}
