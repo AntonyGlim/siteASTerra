@@ -7,6 +7,7 @@
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 #main_img_block,
@@ -21,3 +22,18 @@
 	background-size: cover;
 }
 
+#header_block {
+	position: absolute;
+	top: -900px;
+	left: 0px;
+}
+
+#logo {
+	position: absolute;
+	top: 20px;
+	left: 50px;
+}
+
+#header_menu_lines {
+	list-style-type: none;
+}
