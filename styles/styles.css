@@ -9,10 +9,15 @@
     margin-right: auto;
 }
 
-#main_img_block {
+#main_img_block,
+#main_block {
 	height: 900px;
+}
+
+#main_img_block {
 	background-image: url("../images/fon_1.jpg");
 	background-repeat: no-repeat;
 	background-position: center 0px;
 	background-size: cover;
 }
+
