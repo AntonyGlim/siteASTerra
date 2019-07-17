@@ -1,6 +1,14 @@
+@font-face {
+	font-family: "ewsCondensed_Bold";
+	src: url("../fonts/NewsCondensed_Bold.otf");
+}
+
 * {
 	margin: 0;
 	padding: 0;
+	font-family: "ewsCondensed_Bold", Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .container {
@@ -36,4 +44,19 @@
 
 #header_menu_lines {
 	list-style-type: none;
+	background: red;
+}
+
+#header_menu_lines li{
+	float: left;
+}
+
+#header_menu_lines li:not(:last-child){
+	margin-right: 20px;
+}
+
+#header_menu_lines:after {
+    content: '';
+    clear: both;
+    display: block;
 }
