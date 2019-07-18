@@ -52,7 +52,7 @@ a {
 }
 
 #header_menu {
-  /*background: #3D3939;*/
+  background: #3D3939;
   padding: 10px 0px;
   width: 1200px;
   top: 20px;
@@ -92,7 +92,7 @@ a {
 }
 
 #information {
-  /*background-color: #4E2929;*/
+  background-color: #4E2929;
   height: 820px;
   display: flex;
   flex-direction: column;
@@ -110,3 +110,41 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
+.telephone {
+  display: flex;
+  flex-direction: column;
+}
+
+.telephone a {
+  padding: 10px 0;
+}
+
+a#email_button:link,
+a#old_site_button:link {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 0 var(--main-orange-color) inset, 
+              0 0 1px 3px var(--main-orange-color);
+  color: var(--main-white-color);
+  width: 220px;
+  height: var(--main-font-size);
+  line-height: var(--main-font-size);
+  text-align: center;
+  transition: .15s ease-in-out;
+}
+
+a#old_site_button:link {
+  box-shadow: 0 0 0 0 var(--main-orange-color) inset, 
+              0 0 1px 3px var(--main-white-color);
+}
+
+a#email_button:hover,
+a#old_site_button:hover {
+  box-shadow: 0 0 50px 30px var(--main-orange-color) inset, 
+          0 0 5px 4px var(--main-orange-color);
+  color: var(--main-white-color);
+}
+
+
