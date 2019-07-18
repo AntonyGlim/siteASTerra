@@ -35,27 +35,24 @@ a {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color: #B5FFDD
-
 }
 
 #main_block {
 	background-image: url("../images/fon_1.jpg");
   height: 900px;
+  color: var(--main-white-color);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-  /*почему не работает flax*/
-/*  display: flax;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;*/
   text-align: center;
 }
 
+#main_block a{
+  color: var(--main-white-color);
+}
+
 #header_menu {
-  background: #FBECEC;
+  /*background: #3D3939;*/
   padding: 10px 0px;
   width: 1200px;
   top: 20px;
@@ -79,12 +76,14 @@ a {
   float: right;
 }
 
-#header_menu_ul li {display: inline-block;}
+#header_menu_ul li {
+  display: inline-block;
+}
 
 #header_menu_ul a {
   display: block;
   position: relative;
-  line-height: 61px;
+  line-height: 60px;
   padding-left: 20px;
   font-size: 18px;
   letter-spacing: 2px;
@@ -92,8 +91,18 @@ a {
   transition:.3s linear;
 }
 
-#information{
-  background-color: #BDB8FF;
+#information {
+  /*background-color: #4E2929;*/
+  height: 820px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#information > * {
+  margin: 20px;
 }
 
 #information h3 {
