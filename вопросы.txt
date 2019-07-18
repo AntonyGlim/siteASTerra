@@ -1,0 +1,16 @@
+  /*почему не работает flax*/
+
+#main_block {
+	background-image: url("../images/fon_1.jpg");
+  height: 900px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+/*  display: flax;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;*/
+  text-align: center;
+}

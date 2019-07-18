@@ -9,6 +9,9 @@
 	font-family: "ewsCondensed_Bold", Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
+  align-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 :root {
@@ -33,6 +36,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   color: #B5FFDD
+
 }
 
 #main_block {
@@ -90,4 +94,10 @@ a {
 
 #information{
   background-color: #BDB8FF;
+}
+
+#information h3 {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
