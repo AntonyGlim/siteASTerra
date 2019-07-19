@@ -147,4 +147,19 @@ a#old_site_button:hover {
   color: var(--main-white-color);
 }
 
+#product_block {
+  background-color: #FF69E1;
+}
 
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+
+.cards > div {
+  flex-grow: 1;
+  flex-basis: 270px;
+  box-sizing: border-box;
+  padding: 5px;
+}
