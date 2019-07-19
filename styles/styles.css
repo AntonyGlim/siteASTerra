@@ -148,7 +148,7 @@ a#old_site_button:hover {
 }
 
 #product_block {
-  background-color: #FF69E1;
+  background-color: #DBFCD7;
 }
 
 .cards {
@@ -162,4 +162,9 @@ a#old_site_button:hover {
   flex-basis: 270px;
   box-sizing: border-box;
   padding: 5px;
+}
+
+.product_card {
+  background: #F9A0A0;
+  border: 1px solid #060606;
 }
