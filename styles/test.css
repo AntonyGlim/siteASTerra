@@ -1,143 +1,234 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo');
+
 .top-menu {
-  background: rgba(255,255,255,.5);
-  box-shadow: 3px 0 7px rgba(0,0,0,.3);
-  padding: 20px;
+    background: rgba(255, 255, 255, .5);
+    box-shadow: 3px 0 7px rgba(0, 0, 0, .3);
+    padding: 20px;
+
 }
+
 .top-menu:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
-.navbar-logo {display: inline-block;}
+
+.navbar-logo {
+    display: inline-block;
+}
+
 .menu-main {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
 }
-.menu-main li {display: inline-block;}
+
+.menu-main li {
+    display: inline-block;
+}
+
 .menu-main a {
-  text-decoration: none;
-  display: block;
-  position: relative;
-  line-height: 61px;
-  padding-left: 20px;
-  font-size: 18px;
-  letter-spacing: 2px;
-  font-family: 'Arimo', sans-serif;
-  font-weight: bold;
-  color: #F73E24;
-  transition:.3s linear;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    line-height: 61px;
+    padding-left: 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    color: #F73E24;
+    transition: .3s linear;
 }
+
 .menu-main a:before {
-  content: "";
-  width: 9px;
-  height: 9px;
-  background: #F73E24;
-  position: absolute;
-  left: 50%;
-  transform: rotate(45deg) translateX(6.5px);
-  opacity: 0;
-  transition: .3s linear;
+    content: "";
+    width: 9px;
+    height: 9px;
+    background: #F73E24;
+    position: absolute;
+    left: 50%;
+    transform: rotate(45deg) translateX(6.5px);
+    opacity: 0;
+    transition: .3s linear;
 }
-.menu-main a:hover:before {opacity: 1;}
+
+.menu-main a:hover:before {
+    opacity: 1;
+}
+
 @media (max-width: 660px) {
-.menu-main {
-  float: none;
-  padding-top: 20px;
+    .menu-main {
+        float: none;
+        padding-top: 20px;
+    }
+
+    .top-menu {
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+
+    .menu-main a {
+        padding: 0 10px;
+    }
+
+    .menu-main a:before {
+        transform: rotate(45deg) translateX(-6px);
+    }
 }
-.top-menu {
-  text-align: center;
-  padding: 20px 0 0 0;
-}
-.menu-main a {padding: 0 10px;}
-.menu-main a:before {transform: rotate(45deg) translateX(-6px);}
-}
+
 @media (max-width: 600px) {
-.menu-main li {display: block;}
+    .menu-main li {
+        display: block;
+    }
 }
 
 
 
 
-* {box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
+
 .product-item {
-  width: 300px;
-  margin: 0 auto;
-  padding: 10px 10px 5px 10px;
-  border: 1px solid #eee;
-  background: white;
-  font-family: "Open Sans";
-  overflow: hidden;
-  transition: .4s linear;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px 10px 5px 10px;
+    border: 1px solid #eee;
+    background: green;
+    font-family: "Open Sans";
+    overflow: hidden;
+    transition: .4s linear;
 }
-.product-img {transition: 1s ease-in-out;}
-.product-img:hover {transform: scale(1.1);}
+
+.product-img {
+    transition: 1s ease-in-out;
+}
+
+.product-img:hover {
+    transform: scale(1.1);
+}
+
 .product-img img {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
-.product-list {margin-top: 15px;}
+
+.product-list {
+    margin-top: 15px;
+}
+
 .product-list h3 {
-  font-weight: 700;
-  color: #39404B;
-  margin: 0;
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 2;
+    font-weight: 700;
+    color: #39404B;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 2;
 }
+
 .price {
-  color: #E34D38;
-  display: block;
-  margin-bottom: 12px;
+    color: #E34D38;
+    display: block;
+    margin-bottom: 12px;
 }
+
 .stars {
-  height: 14px;
-  line-height: 14px;
-  margin: 7px 0;
+    height: 14px;
+    line-height: 14px;
+    margin: 7px 0;
 }
+
 .stars:before {
-  content: "\f005\f005\f005\f005\f006";
-  color: #EFB71C;
-  font-size: 14px;
-  font-family: FontAwesome;
+    content: "\f005\f005\f005\f005\f006";
+    color: #EFB71C;
+    font-size: 14px;
+    font-family: FontAwesome;
 }
+
 .actions {
-  border-top: 1px solid #eee;
-  padding-top: 4px;
-  font-size: 13px;
-  height: 30px;
-  line-height: 30px;
+    border-top: 1px solid #eee;
+    padding-top: 4px;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
 }
+
 .actions:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
-.add-to-cart, .add-to-links {float: left;}
+
+.add-to-cart,
+.add-to-links {
+    float: left;
+}
+
 .cart-button {
-  text-decoration: none;
-  color: #8C877C;
-  padding-right: 20px;
-  border-right: 1px solid #ddd;
-  transition: .4s linear;
+    text-decoration: none;
+    color: #8C877C;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+    transition: .4s linear;
 }
+
 .cart-button:before {
-  content: "\f07a";
-  font-family: FontAwesome;
-  margin-right: 10px;
+    content: "\f07a";
+    font-family: FontAwesome;
+    margin-right: 10px;
 }
-.add-to-cart:hover .cart-button, .wishlist:hover, .compare:hover {color: #E34D38;}
-.wishlist, .compare {
-  color: #8C877C;
-  padding-left: 20px;
-  transition: .4s linear;
+
+.add-to-cart:hover .cart-button,
+.wishlist:hover,
+.compare:hover {
+    color: #E34D38;
 }
-.wishlist:after, .compare:after {
-  display: inline-block;
-  font-family: FontAwesome;
-  font-size: 13px;
+
+.wishlist,
+.compare {
+    color: #8C877C;
+    padding-left: 20px;
+    transition: .4s linear;
 }
-.wishlist:after {content: "\f004";}
- .compare:after {content: "\f079";}
+
+.wishlist:after,
+.compare:after {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 13px;
+}
+
+.wishlist:after {
+    content: "\f004";
+}
+
+.compare:after {
+    content: "\f079";
+}
+
+
+a {
+    color: white;
+}
+
+.image {
+    position: relative;
+    width: 380px;
+    height: 380px;
+    background: #00FF00FF;
+
+}
+
+h2 {
+    position: absolute;
+    background: #000000F0;
+    padding: 12px;
+    height: 80px;
+    text-align: center;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    filter: blur(1px);
+}
