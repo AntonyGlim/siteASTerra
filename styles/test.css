@@ -227,14 +227,37 @@ a {
     border-radius: 5px;
 }
 
-h2 {
-    position: absolute;
+.image div {
     background: #000000F0;
-    padding: 12px;
+    width: 380px;
     height: 80px;
+    position: absolute;
+    top: 170px;
+    left: 0px;
+
+}
+
+.image h2 {
+    position: absolute;
+    padding: 12px;
+    height: 40px;
+    background: green;
+    font-size: 20px;
     text-align: center;
     top: 150px;
     left: 0;
     width: 100%;
+    overflow: hidden;
+}
 
+.image h3 {
+    position: absolute;
+    padding: 12px;
+    height: 40px;
+    background: red;
+    text-align: center;
+    top: 190px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
 }
