@@ -283,3 +283,11 @@ a#old_site_button:hover {
     padding-bottom: 12px;
     line-height: 1.5;
 }
+
+#about_block {
+    background: #55557FFF;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
