@@ -217,8 +217,14 @@ a {
     position: relative;
     width: 380px;
     height: 380px;
-    background: #00FF00FF;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px #181818F0;
 
+
+}
+
+.image img {
+    border-radius: 5px;
 }
 
 h2 {
@@ -230,5 +236,5 @@ h2 {
     top: 150px;
     left: 0;
     width: 100%;
-    filter: blur(1px);
+
 }
