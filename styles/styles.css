@@ -154,7 +154,7 @@ a#old_site_button:hover {
 .cards {
     display: flex;
     flex-flow: row wrap;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .cards>div {
@@ -170,7 +170,14 @@ a#old_site_button:hover {
 }
 
 
+#portfolio_block {
+    background: #FDFF7DFF;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 
+}
 
 .portfolio_card {
     position: relative;
@@ -189,9 +196,8 @@ a#old_site_button:hover {
 
 .portfolio_card img:hover {
     transform: scale(1.04);
-    filter: blur(5px);
+    /*filter: blur(5px);*/
     transition: all 0.6s ease 0s;
-    overflow: hidden;
 }
 
 .portfolio_card div {
@@ -222,7 +228,6 @@ a#old_site_button:hover {
 }
 
 .portfolio_card h2 {
-
     padding-top: 12px;
     padding-bottom: 4px;
     line-height: 1.3;
