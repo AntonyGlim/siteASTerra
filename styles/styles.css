@@ -29,11 +29,25 @@
 
 a {
     text-decoration: none;
+    outline: none;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: var(--headline-font-size);
+    margin: 0px 0px 40px 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+.headline {
+    color: var(--main-black-color);
+    font-size: var(--headline-font-size);
 }
 
 a.big_simple_button {
-    text-decoration: none;
-    outline: none;
     display: inline-block;
     padding: 15px 30px;
     margin: 40px 0px;
@@ -46,7 +60,6 @@ a.big_simple_button {
     line-height: var(--main-font-size);
     text-align: center;
     font-weight: bold;
-    text-transform: uppercase;
     transition: .15s ease-in-out;
 }
 
