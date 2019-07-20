@@ -168,3 +168,53 @@ a#old_site_button:hover {
     background: #F9A0A0;
     border: 1px solid #060606;
 }
+
+
+
+
+.portfolio_card {
+    position: relative;
+    width: 380px;
+    height: 380px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px #181818F0;
+}
+
+.portfolio_card img {
+    border-radius: 5px;
+}
+
+.portfolio_card div {
+    background: #000000F0;
+    width: 380px;
+    height: 80px;
+    position: absolute;
+    top: 170px;
+    left: 0px;
+
+}
+
+.portfolio_card h2 {
+    position: absolute;
+    padding: 12px 0px;
+    height: 40px;
+    background: green;
+    font-size: 20px;
+    text-align: center;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.portfolio_card h3 {
+    position: absolute;
+    padding: 12px 0px;
+    height: 40px;
+    background: red;
+    text-align: center;
+    top: 190px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
