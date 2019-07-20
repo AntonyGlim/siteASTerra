@@ -30,6 +30,7 @@
 a {
     text-decoration: none;
     outline: none;
+    color: var(--main-black-color);
 }
 
 h1 {
@@ -61,6 +62,7 @@ a.big_simple_button {
     text-align: center;
     font-weight: bold;
     transition: .15s ease-in-out;
+    box-shadow: 4px 4px 10px #181818F0;
 }
 
 a.big_simple_button:hover {
@@ -209,7 +211,7 @@ a#old_site_button:hover {
 
 
 #portfolio_block {
-    background: #FDFF7DFF;
+    /*background: #FDFF7DFF;*/
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
@@ -223,7 +225,7 @@ a#old_site_button:hover {
 }
 
 .portfolio_cards a:hover .portfolio_card img {
-    transform: scale(1.04);
+    transform: scale(1.1);
     /*filter: blur(5px);*/
     transition: all 0.6s ease 0s;
 }
@@ -284,10 +286,46 @@ a#old_site_button:hover {
     line-height: 1.5;
 }
 
-#about_block {
-    background: #55557FFF;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
+#block_about {
+    /*background: #E79CFFFF;*/
+}
+
+.block_of_text {
+    width: 1000px;
+    margin: 0px auto;
+    text-transform: lowercase;
+}
+
+#about_block_imgs {
+    /*background: #F3FF0CFF;*/
+    margin: 30px 0 0 0px;
+}
+
+#about_block_imgs:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.about_block_img {
+    float: left;
+    height: 220px;
+    width: 220px;
+    margin: 0.833% 0.833%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px #181818F0;
+    overflow: hidden;
+}
+
+.about_block_img img {
+    border-radius: 5px;
+    transform: scale(1.01);
+    transition: all 0.6s ease 0s;
+
+}
+
+.about_block_img img:hover {
+    transform: scale(1.1);
+    transition: all 0.6s ease 0s;
+    z-index: 100;
 }
