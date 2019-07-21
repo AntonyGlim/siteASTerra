@@ -59,8 +59,6 @@ a.big_simple_button {
     padding: 15px 30px;
     margin: 40px 0px;
     border-radius: 2px;
-    box-shadow: 0 0 0 0 var(--main-white-color) inset,
-        0 0 1px 2px var(--main-black-color);
     color: var(--main-black-color);
     width: 170px;
     height: var(--main-font-size);
@@ -68,7 +66,7 @@ a.big_simple_button {
     text-align: center;
     font-weight: bold;
     transition: .15s ease-in-out;
-    box-shadow: 4px 4px 10px #181818F0;
+    box-shadow: 0px 0px 3px 3px #181818F0;
 }
 
 a.big_simple_button:hover {
