@@ -58,11 +58,20 @@ hr {
     /*TODO minimith size left and right*/
 }
 
-.headline:after {
+.headline a {
+    display: inline-block;
+    color: var(--main-black-color);
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.headline a:after {
     display: block;
     content: "";
     background-color: var(--main-orange-color);
-    height: 3px;
+    height: 5px;
     width: 0%;
     left: 50%;
     position: absolute;
@@ -70,8 +79,8 @@ hr {
     transform: translateX(-50%);
 }
 
-.headline:hover:after,
-.headline:focus:after {
+.headline a:hover:after,
+.headline a:focus:after {
     width: 100%;
 }
 
