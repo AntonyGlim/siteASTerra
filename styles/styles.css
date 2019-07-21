@@ -419,3 +419,7 @@ a#old_site_button:hover {
     transform: scale(1.1);
     transition: all 0.6s ease 0s;
 }
+
+#contacts_block {
+    background: green;
+}
