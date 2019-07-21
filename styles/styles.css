@@ -25,6 +25,7 @@
 
     /*font*/
     --main-font-size: 20px;
+    --main-font-important-size: 22px;
     --headline-font-size: 40px;
 }
 
@@ -32,6 +33,7 @@ a {
     text-decoration: none;
     outline: none;
     color: var(--main-black-color);
+    font-weight: bold;
 }
 
 h1 {
@@ -62,8 +64,6 @@ hr {
     display: inline-block;
     color: var(--main-black-color);
     line-height: 1;
-    text-decoration: none;
-    cursor: pointer;
     position: relative;
 }
 
@@ -71,7 +71,7 @@ hr {
     display: block;
     content: "";
     background-color: var(--main-orange-color);
-    height: 5px;
+    height: 4px;
     width: 0%;
     left: 50%;
     position: absolute;
@@ -209,6 +209,7 @@ a.big_simple_button:hover {
 }
 
 .telephone a {
+    font-size: var(--main-font-important-size);
     padding: 10px 0;
 }
 
