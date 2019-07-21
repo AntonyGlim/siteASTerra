@@ -144,7 +144,8 @@ a.big_simple_button:hover {
     margin: 0 10px;
 }
 
-#header_menu_ul {
+#header_menu_ul,
+#footer_menu_ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -422,4 +423,8 @@ a#old_site_button:hover {
 
 #contacts_block {
     background: green;
+}
+
+.copyright {
+    text-transform: lowercase;
 }
