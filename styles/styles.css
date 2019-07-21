@@ -82,7 +82,7 @@ a.big_simple_button:hover {
 }
 
 #main_block {
-    background-image: url("../images/fon_1.jpg");
+    background-image: url("../images/fon_3.jpg");
     height: 900px;
     color: var(--main-white-color);
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ a.big_simple_button:hover {
 }
 
 #header_menu {
-    background: #3D3939;
+    /*background: #3D3939;*/
     padding: 10px 0px;
     width: 1200px;
     top: 20px;
@@ -154,7 +154,7 @@ a.big_simple_button:hover {
 }
 
 #information {
-    background-color: #4E2929;
+    /*background-color: #4E2929;*/
     height: 820px;
     display: flex;
     flex-direction: column;
