@@ -21,6 +21,7 @@
     --main-orange-color: #ff6921;
     --main-link-visited-color: #181818FF;
     --main-link-hover-color: #221100FF;
+    --main-blue-color: #514F77FF;
 
     /*font*/
     --main-font-size: 20px;
@@ -43,15 +44,35 @@ h2 {
     padding: 20px 0px 0px 0px;
 }
 
+hr {
+    color: var(--main-blue-color);
+    background-color: var(--main-blue-color);
+    height: 3px;
+}
+
 .headline {
     color: var(--main-black-color);
     font-size: var(--headline-font-size);
     text-shadow: 0px 0px 2px #ACACACFF;
+    transition: width .3s ease-in-out;
     /*TODO minimith size left and right*/
 }
 
-.headline:hover {
-    /*TODO underlight*/
+.headline:after {
+    display: block;
+    content: "";
+    background-color: var(--main-orange-color);
+    height: 3px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    transition: width .3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.headline:hover:after,
+.headline:focus:after {
+    width: 100%;
 }
 
 a.big_simple_button {
@@ -82,7 +103,7 @@ a.big_simple_button:hover {
 }
 
 #main_block {
-    background-image: url("../images/fon_3.jpg");
+    background-image: url("../images/fon_4.jpg");
     height: 900px;
     color: var(--main-white-color);
     background-repeat: no-repeat;
