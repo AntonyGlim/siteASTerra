@@ -111,6 +111,7 @@ a.big_simple_button:hover {
 #logo_img {
     display: inline-block;
     float: left;
+    margin: 0 10px;
 }
 
 #header_menu_ul {
@@ -127,12 +128,29 @@ a.big_simple_button:hover {
 #header_menu_ul a {
     display: block;
     position: relative;
-    line-height: 60px;
-    padding-left: 20px;
+    line-height: inherit;
+    margin: 18px 10px;
     font-size: 18px;
     letter-spacing: 2px;
     color: var(--main-white-color);
     transition: .3s linear;
+}
+
+#header_menu_ul li a:after {
+    display: block;
+    content: "";
+    background-color: var(--main-orange-color);
+    height: 3px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    transition: width .3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+#header_menu_ul li a:hover:after,
+#header_menu_ul li a:focus:after {
+    width: 100%;
 }
 
 #information {
@@ -331,5 +349,4 @@ a#old_site_button:hover {
 .about_block_img img:hover {
     transform: scale(1.1);
     transition: all 0.6s ease 0s;
-    z-index: 100;
 }
