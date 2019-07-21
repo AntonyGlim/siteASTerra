@@ -1,5 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 
+@font-face {
+    font-family: "ewsCondensed_Bold";
+    src: url("../fonts/NewsCondensed_Bold.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "ewsCondensed_Bold", Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+:root {
+    /*colors*/
+    --main-black-color: black;
+    --main-white-color: white;
+    --main-orange-color: #ff6921;
+    --main-link-visited-color: #181818FF;
+    --main-link-hover-color: #221100FF;
+
+    /*font*/
+    --main-font-size: 20px;
+    --headline-font-size: 40px;
+}
+
 .top-menu {
     background: rgba(255, 255, 255, .5);
     box-shadow: 3px 0 7px rgba(0, 0, 0, .3);
@@ -258,4 +287,32 @@ a {
 
 .image h3 {
     background: red;
+}
+
+.product_cards {
+    position: relative;
+    width: 380px;
+    height: 254px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px #181818F0;
+}
+
+.product_card img {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.product_card h2 {
+    background: #000000F0;
+    width: 380px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    top: 214px;
+    left: 0px;
+    border-radius: 0px 0px 5px 5px;
+    /*box-shadow: 4px 4px 10px #181818F0;*/
 }
