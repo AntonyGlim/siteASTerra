@@ -149,22 +149,34 @@ a.big_simple_button:hover {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+#header_menu_ul {
     float: right;
 }
 
-#header_menu_ul li {
+#header_menu_ul li,
+#footer_menu_ul li {
     display: inline-block;
 }
 
-#header_menu_ul a {
+#header_menu_ul a,
+#footer_menu_ul a {
     display: block;
     position: relative;
     line-height: inherit;
     margin: 18px 10px;
     font-size: 18px;
     letter-spacing: 2px;
-    color: var(--main-white-color);
     transition: .3s linear;
+}
+
+#header_menu_ul a {
+    color: var(--main-white-color);
+}
+
+#footer_menu_ul a {
+    color: var(--main-black-color);
 }
 
 #header_menu_ul li a:after {
