@@ -112,7 +112,7 @@ a.big_simple_button:hover {
 }
 
 #main_block {
-    background-image: url("../images/fon_4.jpg");
+    background-image: url("../images/fon_5.jpg");
     height: 900px;
     color: var(--main-white-color);
     background-repeat: no-repeat;
@@ -437,7 +437,7 @@ a#old_site_button:hover {
 }
 
 #contacts_block {
-    background: green;
+    /*background: green;*/
 }
 
 .copyright {
