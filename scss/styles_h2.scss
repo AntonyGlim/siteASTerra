@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "ewsCondensed_Bold";
+    src: url("../fonts/NewsCondensed_Bold.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "ewsCondensed_Bold", Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+:root {
+    /*colors*/
+    --main-black-color: black;
+    --main-white-color: white;
+    --main-orange-color: #ff6921;
+    --main-link-visited-color: #181818FF;
+    --main-link-hover-color: #221100FF;
+    --main-blue-color: #514F77FF;
+
+    /*font*/
+    --main-font-size: 20px;
+    --main-font-important-size: 22px;
+    --headline-font-size: 40px;
+}
