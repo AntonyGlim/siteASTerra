@@ -453,3 +453,13 @@ a#old_site_button:hover {
 .copyright {
     text-transform: lowercase;
 }
+
+
+/*<partners.html>*/
+
+.partner_card {
+    border: 3px solid red;
+    width: 48%;
+}
+
+/*</partners.html>*/
