@@ -456,10 +456,14 @@ a#old_site_button:hover {
 
 
 /*<partners.html>*/
+.partner_cards{
+    display: flex;
+}
 
 .partner_card {
-    border: 3px solid red;
+    border: 3px solid var(--main-orange-color);
     width: 48%;
+    background-color: red;
 }
 
 /*</partners.html>*/
