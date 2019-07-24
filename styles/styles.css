@@ -457,13 +457,21 @@ a#old_site_button:hover {
 
 /*<partners.html>*/
 .partner_cards{
+    background-color: blue;
     display: flex;
+}
+
+.partner_cards:after {
+    content: '';
+    clear: both;
+    display: block;
 }
 
 .partner_card {
     border: 3px solid var(--main-orange-color);
-    width: 48%;
-    background-color: red;
+    width: 46%;
+    height: 250px;
+    /*background-color: red;*/
 }
 
 /*</partners.html>*/
