@@ -457,8 +457,12 @@ a#old_site_button:hover {
 
 /*<partners.html>*/
 .partner_cards{
-    background-color: blue;
+    /*background-color: blue;*/
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .partner_cards:after {
@@ -471,6 +475,7 @@ a#old_site_button:hover {
     border: 3px solid var(--main-orange-color);
     width: 46%;
     height: 250px;
+    margin: 1%;
     /*background-color: red;*/
 }
 
