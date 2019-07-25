@@ -474,9 +474,23 @@ a#old_site_button:hover {
 .partner_card {
     border: 3px solid var(--main-orange-color);
     width: 46%;
-    height: 250px;
+    height: 320px;
     margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     /*background-color: red;*/
 }
 
+.partner_card>* {
+    margin: 8px;
+}
+
+.partner_adress {
+    width: 65%;
+}
+
+.site_adress {
+    outline: 2px solid var(--main-orange-color);
+}
 /*</partners.html>*/
