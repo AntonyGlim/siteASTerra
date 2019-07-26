@@ -268,7 +268,7 @@ a#old_site_button:hover {
 
 #product_block {
     /*background-color: #DBFCD7;*/
-    display: flex-box;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
