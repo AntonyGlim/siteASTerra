@@ -351,8 +351,18 @@ a#old_site_button:hover {
 }
 
 .portfolio_cards {
+    /*background: red;*/
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.portfolio_cards:after {
+    content: '';
+    clear: both;
+    display: block;
 }
 
 .portfolio_cards a:hover .portfolio_card img {
@@ -367,6 +377,7 @@ a#old_site_button:hover {
     height: 380px;
     border-radius: 5px;
     box-shadow: 4px 4px 10px #181818F0;
+    margin: 10px;
     overflow: hidden;
 }
 
