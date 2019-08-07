@@ -527,8 +527,8 @@ a#old_site_button:hover {
 /*</partners.html>*/
 
 /*<certificates.html>*/
-.certificates_working_conditions_cards {
-    background-color: blue;
+.certificates_cards {
+    /*background-color: blue;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -536,12 +536,14 @@ a#old_site_button:hover {
     align-items: center;
 }
 
-.certificates_working_conditions_cards:after {
+.certificates_cards:after {
     content: '';
     clear: both;
     display: block;
 }
 
+.certificates_declaration_card,
+.certificates_expert_opinion_card,
 .certificates_working_conditions_card {
     border-radius: 5px;
     margin: 0.5%;
@@ -553,12 +555,18 @@ a#old_site_button:hover {
     /*background-color: red;*/
 }
 
+.certificates_declaration_card>img {
+    width: 800px;
+}
+
+.certificates_expert_opinion_card>img {
+    width: 380px;
+}
+
 .certificates_working_conditions_card>img {
     width: 570px;
 }
 
-/*.certificates_working_conditions_card>* {
-    margin: 8px;
-    overflow: hidden;
-}*/
+
+
 /*</certificates.html>*/
